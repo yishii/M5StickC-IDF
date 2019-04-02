@@ -4,7 +4,7 @@ To use as a M5StickC component of ESP-IDF
 - Download and install [esp-idf](https://github.com/espressif/esp-idf)
 - Create template idf project
   ```bash
-  git clone --recursive https://github.com/m5stack/M5Stack-IDF.git
+  git clone --recursive https://github.com/yishii/M5StickC-IDF.git
   ```
 - ```make menuconfig``` has some Arduino options
   - "Autostart Arduino setup and loop on boot"
@@ -12,7 +12,7 @@ To use as a M5StickC component of ESP-IDF
 
       ```arduino
       //file: main.cpp
-      #include <M5Stack.h>
+      #include <M5StickC.h>
 
       void setup(){
 
@@ -33,7 +33,7 @@ To use as a M5StickC component of ESP-IDF
 
       ```arduino
       //file: main.cpp
-      #include <M5Stack.h>
+      #include <M5StickC.h>
 
       extern "C" void app_main()
       {
